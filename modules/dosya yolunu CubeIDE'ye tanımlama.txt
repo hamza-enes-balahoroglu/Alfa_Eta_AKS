@@ -1,0 +1,21 @@
+1. projenin üzerine sağ tıklayın sonra:
+   
+     Properties > C/C++ General > Paths and Symbols yolunu takip edin.
+
+2. açılan pencerede ilk olrarak includes menüsüne gelin ve add seçeneğini seçin. 
+
+     Add directory path sayfası açılacak workspace… butonuna basın ve kullanacağınız kodun h dosyalarınının bulunduğu Inc dosyasını seçin.
+
+     örnek seçim:
+     externals/Alfa_Eta_Dashboard/Alfa_Eta_Dashboard/libs/Inc
+
+   devamında Apply butonuna basın.
+
+3. şimdi source location menüsünden yol tanımlamalıyız. 
+
+     aynı pencereden source location menüsünü seçin ve Add folder butonuna basın. Seçtiğiniz dosya Src ve Inc dosyalarınızı bir arada bulunduran bir dosya olmalı. 
+
+     örnek olarak
+     externals/Alfa_Eta_Dashboard/Alfa_Eta_Dashboard/libs/
+
+   Apply butonuna basıp sayfayı kapatabilirsiniz artık dosya yollarımız IDE'ye tanımlandı.
