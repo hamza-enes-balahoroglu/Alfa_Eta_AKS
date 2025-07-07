@@ -1,0 +1,28 @@
+SUBMODULE nasıl kurulur, adım adım:
+1. projenin içinde şu komutu at:
+bash
+
+git submodule add https://github.com/hamza-enes-balahoroglu/Alfa_Eta_Dashboard.git externals/Alfa_Eta_Dashboard
+
+bu komut externals/Alfa_Eta_Dashboard klasörüne o repoyu çeker ve proje git'ine submodule olarak ekler. dosya isimi ve eklenecek repository adresini değişmeyi unutma.
+
+
+2. submodule'u initialize et (ilk defa çekiyorsan)
+
+git submodule update --init --recursive
+
+
+3. submodule’un sadece istediğin klasörünü kullan
+
+submodule artık klasörümüze tanımlı ama CubeIDE içerisinde dosya yolları tanımlı değil. eklediğimiz repository'den kullanmak istediğimiz bölümleri IDE'ye tanıtalım. 
+
+bunun için "modules\dosya yolunu CubeIDE'ye tanımlama.txt" dosyasından yardım alabilirsiniz.
+
+
+4. submodule’u güncellemek için
+
+cd externals/Alfa_Eta_Dashboard
+git pull origin main
+cd ../../
+git add externals/Alfa_Eta_Dashboard
+git commit -m "Update submodule"
