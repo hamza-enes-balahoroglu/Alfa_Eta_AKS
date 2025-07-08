@@ -25,4 +25,4 @@ cd externals/Alfa_Eta_Dashboard
 git pull origin main
 cd ../../
 git add externals/Alfa_Eta_Dashboard
-git commit -m "Update submodule"
+git commit -m "Update Alfa_Eta_Dashboard submodule"
