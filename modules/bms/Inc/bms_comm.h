@@ -5,7 +5,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#define BMS_UART_HANDLE         huart1
+#define BMS_UART_HANDLE         huart1 /////
 #define BMS_TIMEOUT_MS          100
 #define BMS_CRITICAL_TIMEOUT_MS 500
 #define BMS_PACKET_START_BYTE   0xA5
